@@ -8,7 +8,10 @@ Data newData();
 int getDia();
 int getMes();
 int getAno();
-
+void showData(Data data);
+void showDia(Data data);
+void showMes(Data data);
+void showAno(Data data);
 
 struct {
     int horas;
