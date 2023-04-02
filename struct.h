@@ -19,6 +19,11 @@ struct {
     int segundos;
 } typedef Horario;
 
+Horario newHorario();
+int getHoras();
+int getMinutos();
+int getSegundos();
+
 struct {
     float altura;
     int idade;
